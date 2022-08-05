@@ -23,4 +23,5 @@ public class GithubWikiTest {
         $(byText("Soft assertions")).click();
         $(".markdown-body").shouldHave(text("Using JUnit5 extend test class"));
     }
+
 }
